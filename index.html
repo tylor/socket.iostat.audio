@@ -9,12 +9,12 @@
       targetFrequency = 0;
       currentFreq = 0;
       socket.on('data', function (data) {
-        //console.log(data);
         if (data && data.disk.mbs) {
           targetFrequency = data.disk.mbs * 100;
           currentFreq = frequency;
         }
       });
+
       // From https://wiki.mozilla.org/Audio_Data_API#Complete_Example:_Creating_a_Web_Based_Tone_Generator
       function AudioDataDestination(sampleRate, readFn) {
         // Initialize the audio output.

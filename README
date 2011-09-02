@@ -1,0 +1,1 @@
+Quick hack that feeds your disk activity to an HTML5 audio tag and generates a waveform. Right now just works in Firefox.
