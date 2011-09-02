@@ -1,0 +1,8 @@
+{
+    "name": "socket.iostat.audio"
+  , "description": "monitor your disk with audio"
+  , "version": "0.0.1"
+  , "dependencies": {
+        "socket.io": "0.8.2"
+    }
+}
